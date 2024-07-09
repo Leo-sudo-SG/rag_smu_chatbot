@@ -1,5 +1,4 @@
 
-from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain_openai import OpenAIEmbeddings
 from langchain_core.prompts import ChatPromptTemplate
@@ -21,14 +20,12 @@ import random
 import time
 import firebase_admin
 
-#load_dotenv()
 PINECONE_API_KEY=os.environ['PINECONE_API_KEY']
 LANGCHAIN_TRACING_V2=os.environ['LANGCHAIN_TRACING_V2']
 LANGCHAIN_ENDPOINT=os.environ['LANGCHAIN_ENDPOINT']
 LANGCHAIN_API_KEY=os.environ['LANGCHAIN_API_KEY']
 LANGCHAIN_PROJECT=os.environ['LANGCHAIN_PROJECT']
 OPENAI_API_KEY=os.environ['OPENAI_API_KEY']
-#FIREBASE_FILE_PATH=os.getenv('FIREBASE_FILE_PATH')
 
 
 #from chatbot import init_chatbot
