@@ -8,4 +8,4 @@ firebase-admin
 streamlit
 streamlit-authenticator
 langchain-pinecone
-psycopg2
+psycopg2-binary
