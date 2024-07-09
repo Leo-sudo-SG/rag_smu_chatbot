@@ -1,0 +1,9 @@
+langchain-openai
+langchain-core
+langchain
+pinecone-client
+langsmith
+langchain-community
+firebase-admin
+streamlit
+streamlit-authenticator
