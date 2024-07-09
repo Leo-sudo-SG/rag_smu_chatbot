@@ -9,3 +9,4 @@ streamlit
 streamlit-authenticator
 langchain-pinecone
 psycopg2-binary
+sqlalchemy
