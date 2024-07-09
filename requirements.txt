@@ -7,3 +7,4 @@ langchain-community
 firebase-admin
 streamlit
 streamlit-authenticator
+langchain-pinecone
